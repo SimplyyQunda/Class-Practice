@@ -72,10 +72,15 @@ class Cat {
 	constructor () {
 
 	}
+growl () {
+	return 'meow';
 }
-Cat.prototype.growl = function() {
-		return "meow";
-	}
+
+}
+
+// Cat.prototype.growl = function() {
+// 		return "meow";
+
 let cat = new Cat()
 // -- ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ -- //
 
